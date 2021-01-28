@@ -74,14 +74,14 @@ function getQuestions () {
 
 
 function answerClick() {
-    if (currentQuestionIndex >= quizQuestions.length){
+    if (currentQuestionIndex + 1 >= quizQuestions.length){
         winCondition()
     }
     else if (this.value !== quizQuestions[currentQuestionIndex].answer) {
         time = time - 10 
         timerEl.textContent = time
         feedbackEl.setAttribute("class", "feedback")
-        feedbackEl.textContent = "you are wrong."
+        feedbackEl.textContent = "You're dead"
 
 
     } else {feedbackEl.textContent = "you're right!"
@@ -89,16 +89,13 @@ function answerClick() {
     currentQuestionIndex++
     choicesEl.textContent = ""
     getQuestions()   
-    console.log(quizQuestions.length)
-    console.log(currentQuestionIndex)
 }
 
 }
 function winCondition() {
 localStorage.setItem("finalScore", time)
-alert()
-
-
+questionsEl.setAttribute("class", "hide")
+feedbackEl.textContent = "Congratulations you charismatic monster you! You've seduced your way out of trouble yet again!"
 }
 // localStorage.length
 // localStorage.getItem("finalScore")
