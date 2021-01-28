@@ -9,17 +9,17 @@ var quizQuestions = [{
     answer: "Attempt to seduce the dragon."
   },
   {
-    title: "You're climbing down an abandoned mine shaft when a sudden blast of cold air throws you from the wall. After falling a short distance you find yourself face to face with White dragon. What do you do?",
+    title: "You're climbing down an abandoned mine shaft when a sudden blast of cold air throws you from the wall. After falling a short distance you find yourself face to face with a massive White dragon. What do you do?",
     choices: ["Run out the back!", "Hide in the basement!", "Supplicate yourself and offer it all of your belongings in exchange for your life.", "Attempt to seduce the dragon."],
     answer: "Attempt to seduce the dragon."
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
+    title: "You're in dire need of new plate mail but you're super classy so only dragon fire forged will do. So you seek out Noctockulgoo (a dragon know for his willingness to lend his breath to the craft of fine weapons and armor) unfortunately upon arrival you managed to imply that you have more gold and treasure then he does. You're in his cave and he has murder in his eyes. What do you do?",
     choices: ["Run out the back!", "Hide in the basement!", "Supplicate yourself and offer it all of your belongings in exchange for your life.", "Attempt to seduce the dragon."],
     answer: "Attempt to seduce the dragon."
   },
   {
-    title: "Arrays in JavaScript can be used to store ____.",
+    title: "The dragon from the first question whom you've now been dating for 4 years and have gotten pretty serious with has discovered that your cheating on them with 3 other dragons. What do you do?",
     choices:["Run out the back!", "Hide in the basement!", "Supplicate yourself and offer it all of your belongings in exchange for your life.", "Attempt to seduce the dragon."],
     answer: "Attempt to seduce the dragon."
   }]
